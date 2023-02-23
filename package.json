@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo",
+  "description": "Package for system test automation os saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js --format progress-bar --format json:cucumber-report.json --format html:cucumber-report.html features/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfarhanajahan/saucedemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfarhanajahan/saucedemo/issues"
+  },
+  "homepage": "https://github.com/sfarhanajahan/saucedemo#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.8.1"
+  }
+}
